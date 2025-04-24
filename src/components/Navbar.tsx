@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -7,9 +8,9 @@ const Navbar = () => {
       <div className="container flex justify-between items-center py-4">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-tech-primary flex items-center justify-center text-white font-bold">
-            Т
+            К
           </div>
-          <span className="text-xl font-bold">ТехноПоиск</span>
+          <span className="text-xl font-bold">Кремков Кирилл</span>
         </Link>
         
         <div className="flex items-center gap-4">
@@ -17,10 +18,10 @@ const Navbar = () => {
             <Link to="/">Главная</Link>
           </Button>
           <Button variant="ghost" asChild>
-            <Link to="/about">О сервисе</Link>
+            <Link to="/about-kirill">Обо мне</Link>
           </Button>
           <Button variant="default" asChild>
-            <Link to="/report">Сообщить о пропаже</Link>
+            <Link to="/contact">Связаться</Link>
           </Button>
         </div>
       </div>
